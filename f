@@ -2757,3 +2757,5 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	end
 	return Tabs
 end
+
+local win = Flux:Window("Chronic X", "Lumber tycoon2", Color3.fromRGB(255, 110, 48), Enum.KeyCode.LeftControl)
